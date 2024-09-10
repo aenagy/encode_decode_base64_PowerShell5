@@ -43,9 +43,22 @@ If the output file is not specified then it is the same as the input file name w
 
 ## Alternate solution for small-ish files
 
-Use the Windows built-in utility 'certutil'.
+Use the Windows built-in utility 'certutil'. From user2226112 in the same Stack Overflow article:
 
-`Get-Content -Path textfile??.txt | Out-File -FilePath foobar.txt -Append`
+To encode file.
+
+`certutil -encode test.exe test.txt`
+
+To decode file.
+
+`certutil -decode test.txt test.exe`
+
+Microsoft's documentation for certutil can be found here:
+
+* certutil
+  `https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/certutil`
+
+The reason for not using certutil was the warning in the page above and the fact that additional text is inserted at the top and bottom of the base64 encoded file. 
 
 ## Author
 
