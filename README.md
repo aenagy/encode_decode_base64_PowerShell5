@@ -13,10 +13,9 @@ Inspired by the following Stack Overflow article:
 
 * `https://stackoverflow.com/a/60671753`
 
-
 ## Usage
 
-This PowerShell script was created and tested with version 5.1 on Windows 10. This version of PowerShell was chosen as some environments don't allow users to install/upgrade to PowerShell 7+.
+This PowerShell script was created and tested with version 5.1 on Windows 10. This version of PowerShell was chosen as some environments don't allow users to install/upgrade to a later version.
 
 If/when/maybe I have time I will test on other platforms such as Ubuntu.
 
