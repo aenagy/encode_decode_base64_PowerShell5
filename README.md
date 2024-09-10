@@ -7,7 +7,8 @@ I need a pure PowerShell solution to encode a binary file to base 64 and to deco
 Inspired by the following Stack Overflow article:
 
 * Encode / Decode .EXE into Base64
- `https://stackoverflow.com/questions/42592518/encode-decode-exe-into-base64`
+
+  `https://stackoverflow.com/questions/42592518/encode-decode-exe-into-base64`
 
 ... and the answer from bielawski (`https://stackoverflow.com/users/2121227/bielawski`):
 
