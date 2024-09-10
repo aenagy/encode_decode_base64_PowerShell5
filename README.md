@@ -56,6 +56,7 @@ To decode file.
 Microsoft's documentation for certutil can be found here:
 
 * certutil
+
   `https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/certutil`
 
 The reason for not using certutil was the warning in the page above and the fact that additional text is inserted at the top and bottom of the base64 encoded file. 
